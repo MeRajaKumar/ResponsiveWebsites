@@ -1,71 +1,55 @@
-body{
-	background-color: ;
-	margin: 0px;
-	text-overflow: none;
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+:root{
+	--bcg-color: #ffffff;
+	--primary-color: #a2aa72;
+	--border-radius: 8px;
+	--secondary-color: #0079FF;
+	--border-color: #7fb7c9;
 }
-.LeftProfile {
-	position:absolute;
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;}
+
+.navContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
 	height: 100%;
-	width: 20%;
-	background-color: yellow;
-     }
-.LeftProfile img{
-	height: 145px;
-	width: 145px; 
-	margin-top: 8px;
-	margin-bottom: 0px;
-	margin-left: 25%;
+	width: 18%;
+	background-color: #F1F1F1;
+	position: absolute;
+}
+.navContainer img{
 	border-radius: 50%;
-	alt: picture is not supported;
+	height: 130px;
+	width: 130px;
+	margin-top: 40px;
 }
-.LeftProfile h2{
+.navContainer h1{
 	font-size: 25px;
-	text-align: center;
-	font-family: Comic Sans MS;
-	position: relative;
-	text-decoration:none;
-	margin-top: 0px;
+	margin: 20px;
+	font-family: 'Merriweather', serif;
 }
-.LeftProfile h3{
-	margin-top: 0px;
-	position: relative;
-	text-decoration:none;
+.navContainer p{
+	color: var(--secondary-color);
+	margin: 0px 10px 20px 10px;
 	font-size: 15px;
 	text-align: center;
-	color: black;
-	font-family: Comic Sans MS;
 }
-.LeftProfile h1{
-	text-decoration:none;
-	font-size: 30px;
-	text-align:center;
-	font-family: Algerian;
-	text-shadow:0 0 10px white;
-}
-.Navigation a{
-	display:block;
-	height: 185%;
-	width:65%;
+.navContainer a{
+	text-decoration: none;
 	padding: 8px;
-	margin-left: 13%;
 	color: black;
-	text-decoration:none;
-	background-color: white;
-	font-size:20px;
-	text-align:center;
-	font-family: arial;
+	text-align: center;
 }
-.Navigation a:hover{
-	color:black;
-	  background-image: linear-gradient(to right, white, yellow, white);
-    box-shado: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+.navContainer a:hover{
+	color: #0079FF;
 }
-.RightProfile{
-	height: 100%;
-	width: 80%;
-	background-color: black;
-	color: yellow;
-	position:absolute;
-	margin-left: 20%;
-
+.navContainer h2{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 22px;
 }
