@@ -1,8 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Telex&display=swap');
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    /* font-family: arial; */
+    font-family: 'Telex', sans-serif;
 }
 html,body{
     height: 100%;
@@ -20,7 +22,7 @@ html,body{
     position: absolute;
     display: flex;
     font-size: 45px;
-    font-family: segoe print;
+    
     font-weight:800;
     margin: 3px 0px 0px 145px; 
     color: #eeeeee;
@@ -28,7 +30,7 @@ html,body{
     cursor: pointer;
     text-transform: upp;
 }
-.navLogoText1 span{ color: #f6c90e; font-size: 45px; font-family: segoe print; }
+.navLogoText1 span{ color: #f6c90e; font-size: 45px; }
 nav{
     display: flex;
     width: 100%;
