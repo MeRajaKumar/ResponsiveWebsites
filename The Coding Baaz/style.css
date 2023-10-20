@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 :root{
-    --background:#000;
+    --background:#0f0e0e;;
     --second-bcg: #1D1D1D;
     --text-color:#eeeeee;
     --second-text-color: #f6c90e;
@@ -177,3 +177,44 @@
 
 }  
 
+/* Services Container */            
+.services{
+    height: 85vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-top: 50px; */
+    padding: 60px 90px 0px 90px;
+}
+.services .servicesTxtDiv{
+    position: absolute;
+    margin-bottom: 500px;
+}
+.services .servicesDiv{
+    height: 350px;
+    width: 360px;
+    background: var(--background);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    
+}
+.services .servicesDiv i{
+    font-size: 80px;
+    color: var(--second-text-color);
+}
+.services .servicesDiv h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.services .servicesDiv p{
+    font-size: 17px;
+    text-align: center;
+    color: #777777;
+    line-height: 1.2;
+    font-weight: 600;
+}
