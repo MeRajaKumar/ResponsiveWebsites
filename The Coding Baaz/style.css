@@ -201,7 +201,6 @@
     flex-direction: column;
     padding: 30px;
     gap: 30px;
-    
 }
 .services .servicesDiv i{
     font-size: 80px;
@@ -217,4 +216,46 @@
     color: #777777;
     line-height: 1.2;
     font-weight: 600;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.projectsTxtDiv{
+   text-align: center;
+   font-size: 22px;
+    /* padding-top: 15px; */
+}
+.projectsTxtDiv h1{
+    /* padding-top: 10px; */
+    font-size: 37px;
+}
+.projectDiv{
+    height: 75vh;
+    width: 80%;
+    /* background-color: var(--second-bcg); */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap:  wrap;
+    flex-direction: column;
+    margin-top: 0px;
+    
+}
+.projectDiv .divIteam{
+    height: 220px;
+    width: 360px;
+    margin: 20px;
+    background-color: var(--second-bcg);
+    border-radius: 10px;
+
+}
+.divIteam img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
 }
